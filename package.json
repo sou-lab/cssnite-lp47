@@ -1,0 +1,16 @@
+{
+  "name": "lp47-practice",
+  "version": "1.0.0",
+  "description": "CSS NITE LP47 Corder's High 2016",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}
