@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+$base: #73B83E;
+
+
+.block {
+  color: $base;
+  animation: none;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  display: flex;
+  .block__element {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+    padding: 20px;
+    &.-modifier {
+      color: tomato;
+    }
+  }
+}
+
