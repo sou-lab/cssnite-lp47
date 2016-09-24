@@ -4,11 +4,13 @@ $base: #73B83E;
 
 
 .block {
+  //順番ソートさせる
+  border: 0;
   color: $base;
   animation: none;
+  //ベンダープリフィックスがつく  
   align-items: center;
   justify-content: space-between;
-  border: 0;
   display: flex;
   .block__element {
     width: 100%;
