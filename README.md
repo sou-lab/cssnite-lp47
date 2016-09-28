@@ -7,9 +7,9 @@
 
 ### 1. ndenv or nodist のインストール
 
-まずは、Macなら`anyenv`経由で`ndenv`、windowsなら`nodist`をインストールしましょう
+まずは、Macなら`anyenv`経由で`ndenv`、Windowsなら`nodist`をインストールしましょう
 
-#### anyenv
+#### anyenv（Mac）
 https://github.com/riywo/anyenv
 こちらのINSTALLのコマンドを上から実行しanyenvをインストールします。
 
@@ -19,10 +19,10 @@ ndenvをインストールします。
 $ anyenv install ndenv
 ```
 
-nodeのバージョンを6.6.0にします。
+nodeのバージョンを6.7.0にします。
 
 ```sh
-$ ndenv install v6.6.0
+$ ndenv install v6.7.0
 $ ndenv rehash
 ```
 
@@ -30,25 +30,25 @@ $ ndenv rehash
 node -v
 ```
 
-で v6.6.0と表示されていればOKです。
+で v6.7.0と表示されていればOKです。
 
 
-#### nodist
+#### nodist（Windows）
 https://github.com/marcelklehr/nodist
 の「Download the installer here」からイントーラーでインストールします。
 
 
-nodeのバージョンを6.6.0にします
+nodeのバージョンを6.7.0にします
 
 ```sh
-> nodist + v6.6.0
-> nodist v6.6.0 
+> nodist + v6.7.0
+> nodist v6.7.0 
 ```
 
 ```sh
 > node -v
 ```
-で v6.6.0と表示されていればOKです。
+で v6.7.0と表示されていればOKです。
 
 
 ### 2. クローン or ダウンロード
@@ -81,7 +81,7 @@ gulpのタスクが実行されます。
 #### gulp watch
 
 
-```
+```sh
 $ npm run watch
 ```
 コマンドを実行すると「sass」ディレクトリを監視し、変更があると自動でsassをコンパイルします。
